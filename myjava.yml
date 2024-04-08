@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  become: tasks
+  become: yes
   tasks:
       - name: i want to install java jdk8 on ubantu server
         apt:
